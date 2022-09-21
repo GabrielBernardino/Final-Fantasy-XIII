@@ -1,0 +1,60 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+}
+
+section {
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  transition: all .5s;
+}
+
+section:hover {
+  flex:2;
+ 
+}
+
+section h1 {
+  background:rgba(0,0,0,0.6);
+  color:white;
+  padding: 12px 32px;
+}
+section h1 a
+{
+  color:azure;
+  text-decoration: none;
+}
+
+.FFXIII{
+  background:url('FFXIII-1.jpg') #777777;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.FFXIII-2{
+  background:url('FFXIII-2.jpg') #777777;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.FFXIII-3{
+  background:url('FFXIII-3.jpg') #777777;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
